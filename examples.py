@@ -14,6 +14,7 @@ import recipes
 
 with open('./recipes/recipes.xml', 'rb') as f:
     xml_text = f.read()
+
 with open('./recipes/recipes.xsd', 'rb') as f:
     xsd_text = f.read()
 
