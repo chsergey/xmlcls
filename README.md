@@ -1,2 +1,6 @@
 # xmlcls
-Custom XML classes wrappers for lxml.etree.Element
+Hate XML
+
+# Examples
+
+see examples.py
