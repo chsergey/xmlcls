@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='xmlcls',
-    version='0.1',
+    version='0.1.b2',
     description='Classes for work with XML elements as objects',
     author='chsergey',
     author_email='chsergey@chsergey.ru',
@@ -21,7 +21,7 @@ setup(
 
     packages=['xmlcls'],
 
-    install_requires=['defusedxml', 'lxml'],
+    install_requires=['defusedxml', 'lxml~=4.2.1'],
     python_requires='~=3.3',
 
     project_urls={

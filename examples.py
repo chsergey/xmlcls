@@ -12,13 +12,15 @@ from xmlcls.xml_errors import (
 # import custom wrapper classes
 import recipes
 
-with open('recipes.xml', 'rb') as f: xml_text = f.read()
-with open('recipes.xsd', 'rb') as f: xsd_text = f.read()
+with open('./recipes/recipes.xml', 'rb') as f:
+    xml_text = f.read()
+with open('./recipes/recipes.xsd', 'rb') as f:
+    xsd_text = f.read()
 
 xml = XMLFile(xml_text)
 
 # validating xml
-is_valid = xml.is_valid(xsd_str=xsd_text) # returns bool
+is_valid = xml.is_valid(xsd_str=xsd_text)  # returns bool
 
 try:
     xml.assert_valid(xsd_text)
