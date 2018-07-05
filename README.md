@@ -1,5 +1,5 @@
 # xmlcls
-Hate XML
+Classes for work with XML elements as objects
 
 # Examples
 
