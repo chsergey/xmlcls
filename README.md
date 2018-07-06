@@ -5,4 +5,4 @@ Classes for work with XML elements as objects
 
 # Examples
 
-see examples.py
+see [examples.py](examples.py)
